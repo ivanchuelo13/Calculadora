@@ -27,8 +27,8 @@
     position: absolute;
     width: 700px;
     height: 550px;
-    left: 600px;
     top: 200px;
+    margin-left: 8em;
     border-radius: 20px / 10px;
     z-index: 1;
     background-image: url("https://blog.lancopaints.com/wp-content/uploads/2018/09/shutterstock_373186708.jpg");
