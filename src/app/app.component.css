@@ -1,0 +1,154 @@
+.General {
+    margin: auto;
+    margin-top: 50px;
+    width: 960px;
+    height: 700px;
+    background-color: #a9868e;
+    border-radius: 20px / 10px;
+    background-image: url("https://www.logaster.com.es/blog/wp-content/uploads/2019/01/6-min-min-min.jpg");
+}
+
+.Barra {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background: #6d5252;
+    font-weight: 600;
+    border: none;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px / 10px
+}
+
+.CajaCalculadora {
+    background-color: rgb(238, 99, 49);
+    display: flex;
+    position: absolute;
+    width: 700px;
+    height: 550px;
+    left: 600px;
+    top: 200px;
+    border-radius: 20px / 10px;
+    z-index: 1;
+    background-image: url("https://blog.lancopaints.com/wp-content/uploads/2018/09/shutterstock_373186708.jpg");
+}
+
+.CajaPantalla {
+    width: 650px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.CajaBotones {
+    width: 400px;
+    height: 200px;
+    margin-top: 300px;
+    margin-left: -650px;
+    z-index: 2;
+}
+
+.CajaResultado {
+    width: 140px;
+    height: 100px;
+    background: #ffffff;
+    margin-left: 50px;
+    margin-top: 300px;
+    z-index: 3;
+    border-radius: 20px / 10px
+}
+
+.boton1 {
+    text-decoration: none;
+    margin: o auto;
+    font-weight: 100;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(80, 66, 66);
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.boton2 {
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(80, 66, 66);
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.boton3 {
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(80, 66, 66);
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.boton4 {
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(80, 66, 66);
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.boton5 {
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 15px;
+    font-size: 20pt;
+    font-family: fantasy;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(80, 66, 66);
+    margin-top: 50px;
+    margin-left: 430px;
+}
+
+.resultados {
+    width: 140px;
+    height: 100px;
+    background: #6d5252;
+}
+
+input[type=number] {
+    width: 40%;
+    height: 80px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 30pt;
+    font-family: fantasy;
+    margin-left: -200px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(148, 48, 48);
+    color: white;
+}

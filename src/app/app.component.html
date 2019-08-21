@@ -1,0 +1,46 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center" class="Barra">
+    <h1>
+        CandyAce {{ title }}!
+    </h1>
+</div>
+<div style="text-align:center" class="General">
+    <div class="CajaCalculadora">
+        <div class="CajaPantalla">
+            <div style="text-align:center">
+                <input type="number" placeholder="Numero1" class="CajitaNum1" id="Numero1" [(ngModel)]="Numero1" />
+            </div>
+            <div style="text-align:center">
+                <input type="number" placeholder="Numero2" class="CajitaNum2" id="Numero2" [(ngModel)]="Numero2" />
+            </div>
+        </div>
+        <div class="CajaBotones">
+            <button [disabled]="bloquer" class="boton1" (click)="suma()">+</button>
+            <button [disabled]="bloquer" class="boton2" (click)="rest()">-</button>
+            <button [disabled]="bloquer" class="boton3" (click)="multi()">X</button>
+            <button [disabled]="bloquer" class="boton4" (click)="divi()">/</button>
+            <button [disabled]="bloquer" class="boton5" (click)="Limpiar()">Limpiar</button>
+        </div>
+        <div class="CajaResultado">
+            <h2>{{result}}</h2>
+            <h2>{{modulus}}</h2>
+        </div>
+    </div>
+</div>
+<p>
+    Tu pantalla la consideramos:
+
+    <script>
+        if (screen.width < 1024)
+            document.write("Pequeña")
+        else
+        if (screen.width < 1280)
+            document.write("Mediana")
+        else
+            document.write("Grande")
+    </script>
+</p>
+<button [disabled]="bloquer" (click)="Limpiar()">Limpiar</button>
+<h2> Ivan Julian Guerra Cordoba</h2>
+
+<router-outlet></router-outlet>
